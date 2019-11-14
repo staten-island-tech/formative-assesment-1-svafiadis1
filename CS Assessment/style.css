@@ -1,8 +1,27 @@
-div{
-    background-image: linear-gradient(to right bottom,
-    rgba(255,90,9,0.4),
-    rgba(236, 127, 55, .0.4)
-    ),  url(media/background.jpg);
-    text-align: center;
-    height: 100vh;
+div {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 90, 9, 0.4),
+      rgba(128, 0, 0, 1)
+    ),
+    url(media/background.jpg);
+  text-align: center;
+  background-size: cover;
+  height: 100vh;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+li{
+    font-size: 30px;
+}
+
+img {
+  height: 50vh;
+  filter: blur(2px);
 }
